@@ -74,8 +74,3 @@ class MyOcr(object):
         secret_key = 'xZzmmKTX2yQDHtGF64femfuqajv1lAgE'
         client = AipOcr(app_id, api_key, secret_key)
         return client
-
-
-if __name__ == '__main__':
-    print(MyOcr('ocr_test_01.png').parse_content())
-    print(MyOcr('flask学习笔记.md').parse_content())
