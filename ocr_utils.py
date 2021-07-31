@@ -1,5 +1,5 @@
 """
-基于baidu-aip 文字识别 sdk 进行简单封装
+基于baidu-aip 图片文本识别 sdk 进行简单封装
 """
 from aip import AipOcr
 from io import StringIO
