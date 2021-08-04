@@ -10,7 +10,3 @@ def md5_encrypt(content, encoding='utf-8', type_='str'):
         content = open(content, 'rb').read()
         md5_.update(content)
         return md5_.hexdigest()
-
-
-if __name__ == '__main__':
-    print(md5_encrypt('小依曦'))
